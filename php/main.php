@@ -46,6 +46,18 @@
 		return $cadena;
 	}
 
+	# Función renombrar fotos #
+	function renombrar_fotos($nombre){
+		$nombre = str_ireplace(" ", "_",$nombre);
+		$nombre = str_ireplace("/", "_",$nombre);
+		$nombre = str_ireplace("#", "_",$nombre);
+		$nombre = str_ireplace("-", "_",$nombre);
+		$nombre = str_ireplace("$", "_",$nombre);
+		$nombre = str_ireplace(".", "_",$nombre);
+		$nombre = str_ireplace(",", "_",$nombre);
+		$nombre = $nombre."_".rand(0,100);
+		return $nombre;
+	}
     
 
     
