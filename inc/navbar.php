@@ -59,7 +59,7 @@
                         <a class="button is-primary">
                             Mi cuenta
                         </a>
-                        <a class="button is-link">
+                        <a href="index.php?vista=logout" class="button is-link">
                             Salir
                         </a>
                     </div>
