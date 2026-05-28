@@ -56,7 +56,7 @@
             <div class="navbar-end">
                 <div class="navbar-item">
                     <div class="buttons">
-                        <a class="button is-primary">
+                        <a class="button is-primary" href="index.php?vista=user_update&user_id_up=<?php echo $_SESSION['id']; ?>">
                             Mi cuenta
                         </a>
                         <a href="index.php?vista=logout" class="button is-link">
